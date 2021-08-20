@@ -267,8 +267,14 @@ footer {
     .logo {
         height: 1.8rem;
     }
+    header nav {
+        display: flex;
+        flex-direction: column;
+        line-height: 1.05rem;
+    }
     header a {
-        font-size: 0.8rem;
+        width: 4.5rem;
+        font-size: 0.7rem;
     }
     #mission {
         display: flex;
