@@ -60,6 +60,7 @@ a {
     background-image: url("../media/mission-background.webp");
     background-size: cover;
     background-repeat: no-repeat;
+    background-position: center;
     height: 31.82rem;
     text-align: center;
     max-width: 54.55rem;
@@ -130,6 +131,7 @@ a {
     background-image: url("../media/locations-background.webp");
     background-repeat: no-repeat;
     background-size: cover;
+    background-position: center;
     margin-top: 70px;
 }
 
