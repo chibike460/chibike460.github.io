@@ -614,7 +614,17 @@ footer p a {
 }
 
 /*tablet-768px*/
-@media only screen and (width: 768px) {
+@media only screen and (min-width: 721px) and (max-width: 768px){
+    .course {
+        flex-grow: 1;
+        flex-shrink: 1;
+        width: 29.5%;
+    }
+    .individual-courses {
+        font-size: 13px;
+    }
+}
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
     .action-section {
         height: auto;
     }
@@ -628,6 +638,8 @@ footer p a {
         margin-left: 16px;
     }
     .course {
+        flex-grow: 1;
+        flex-shrink: 1;
         width: 31.6%;
     }
     .individual-courses {
@@ -654,8 +666,10 @@ footer p a {
 }
 
 /*laptop-1024px*/
-@media only screen and (width: 1024px) {
+@media only screen and (min-width: 1024px) and (max-width: 1439px) {
     .course {
+        flex-grow: 1;
+        flex-shrink: 1;
         width: 271.2px;
     }
     body footer {
@@ -664,7 +678,7 @@ footer p a {
 }
 
 /*laptop-1440px*/
-@media only screen and (width: 1440px) {
+@media only screen and (min-width: 1440px) and (max-width: 2559px) {
     body footer {
         top: 140px;
     }
