@@ -392,6 +392,8 @@ footer p a {
 }
 
 /*mobile*/
+/*@media only screen and (resolution: 1024px)*/
+
 @media only screen and (max-width: 320px) {
     .banner-1-aside h2 {
         font-size: 30px;
@@ -695,9 +697,17 @@ footer p a {
 }
 /*laptop-1440px*/
 @media only screen and (min-width: 1440px) and (max-width: 2559px) {
+    .thesis-section {
+        height: auto;
+    }
     body footer {
         top: 140px;
     }
+}
+/*@media only screen and (min-width: 1500px) and (max-width: 2559px) {
+    body footer {
+        top: 100px;
+    }*/
 }
 /*laptop-4k*/
 @media only screen and (min-width: 2560px) {
