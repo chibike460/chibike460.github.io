@@ -621,10 +621,22 @@ footer p a {
         width: 29.5%;
     }
     .individual-courses {
-        font-size: 13px;
+        font-size: 12px;
+    }
+    .banner-1-aside h2 {
+        font-size: 30px;
+    }
+    .course-section {
+        top: 65px;
+    }
+    .action-section {
+        height: auto;
+    }
+    .banner-1-aside button {
+        width: 88%;
     }
 }
-@media only screen and (min-width: 768px) and (max-width: 1023px) {
+@media only screen and (min-width: 769px) and (max-width: 1023px) {
     .action-section {
         height: auto;
     }
@@ -660,10 +672,8 @@ footer p a {
     .thesis-section {
         height: auto;
     }
-    body footer {
-
-    }
 }
+
 
 /*laptop-1024px*/
 @media only screen and (min-width: 1024px) and (max-width: 1439px) {
@@ -677,6 +687,12 @@ footer p a {
     }
 }
 
+/*footer-adjustments*/
+@media only screen and (min-width: 1127px) and (max-width: 1439px) {
+    body footer {
+        top: 140px;
+    }
+}
 /*laptop-1440px*/
 @media only screen and (min-width: 1440px) and (max-width: 2559px) {
     body footer {
