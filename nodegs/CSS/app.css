@@ -2,6 +2,7 @@
   padding: 0px;
   margin: 0px;
 }
+/* Introductory Part */
 .intro {
   background-image: url(../Media/home-back-ground.png);
   /* background-color: black; */
@@ -52,8 +53,8 @@ nav {
 nav:target {
   transform: translateY(0);
 }
-.fa-linkedin {
-  color: white;
+.nodegs-logo {
+  width: 10rem;
   font-size: 2rem;
   margin-right: auto;
 }
@@ -124,6 +125,23 @@ h1 {
   color: white;
 }
 
+/* About - Profile Part */
+.profile {
+  height: 70vh;
+  background-color: rgb(225, 219, 206);
+}
+.profile-pic {
+  margin-left: 3%;
+  padding-top: 3%;
+  max-width: fit-content;
+  height: 100%;
+}
+.profile-pic img {
+  height: 150px;
+  width: 150px;
+  border-radius: 10%;
+}
+
 /* Tablet Size */
 @media (min-width: 800px) {
   .mobile-nav {
@@ -131,8 +149,9 @@ h1 {
     border-bottom: none;
     height: 5rem;
   }
-  .fa-linkedin {
+  .nodegs-logo {
     font-size: 4rem;
+    width: 15rem;
   }
   nav ul li:last-child a {
     background-color: rgb(65, 75, 168);
@@ -226,7 +245,18 @@ h1 {
     background-color: white;
     color: black;
   }
-}
+  .profile-pic {
+    padding-top: 0px;
+  }
+  .profile-pic img {
+    height: 100%;
+    width: 100%;
+    border-radius: 10%;
+  }
+  .nodegs-logo {
+    width: 20rem;
+  }
+  }
 /* 720p HD Television */
 @media (min-width: 1280px) {
   .mobile-nav {
