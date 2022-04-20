@@ -134,7 +134,8 @@ h1 {
   margin-left: 3%;
   padding-top: 3%;
   max-width: fit-content;
-  height: 100%;
+  height: 150px;
+  width: 150px;
 }
 .profile-pic img {
   height: 150px;
@@ -206,6 +207,25 @@ h1 {
   }
   section {
     margin-top: 29vh;
+  }
+}
+/* Mobile Landscape Orientation */
+@media only screen and (max-width: 926px) and (orientation: landscape) {
+  .intro {
+    height: 100vh;
+    background-position: bottom 0% right 0%;
+  }
+  section {
+    margin-top: 10vh;
+  }
+}
+/* Iphone SE */
+@media only screen and (max-width: 668px) and (orientation: landscape) {
+  section {
+    margin-top: 25vh;
+  }
+  .profile-pic {
+    border: 1px solid black;
   }
 }
 /* iPad Pro (12.9 inch) */
