@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Adol's Shopping Cart</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;600&display=swap" rel="stylesheet">
+    <link href="assets/styles.css" rel="stylesheet">
+    <script src="assets/script.js" defer></script>
+    <script src="assets/front.js" defer></script>
+</head>
+<body>
+    <div class="shopping-cart">
+        <header>
+            <h1>Adol's Fragrance Stand</h1>
+            <img src="images/adol-logo.jpg">
+        </header>
+        
+        <div class="currency-selector"></div>
+        <div class="cart-container">
+            <div class="products-container">
+                <h2>Products</h2>
+                <div class="products"></div>
+                <h2>Your Shopping Cart</h2>
+                <div class="empty-btn"></div>
+                <div class="cart"></div>
+            </div>
+            <div class="checkout-container">
+                <h2>Checkout</h2>
+                <div class="checkout">
+                    <div class="cart-total"></div>
+                    <form>
+                        <label>Enter Cash Received:</label>
+                        <input class="received" type="text">
+                        <button class="pay">Submit</button> 
+                    </form>
+                    <h3>Receipt</h3>
+                    <div class="pay-summary"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
