@@ -11,35 +11,35 @@ const product1 = {
   price: 4500,
   quantity: 0,
   productId: 1,
-  image: "images/product-1.jpg",
+  image: "app/src/images/product-1.jpg",
 };
 const product2 = {
   name: "Gucci OUD Intense",
   price: 2.99,
   quantity: 0,
   productId: 2,
-  image: "images/product-2.jpg",
+  image: "app/src/images/product-2.jpg",
 };
 const product3 = {
   name: "Adol Special Oil Perfume <small>25ml</small>",
   price: 4500,
   quantity: 0,
   productId: 3,
-  image: "images/product-3.jpg",
+  image: "app/src/images/product-3.jpg",
 };
 const product4 = {
   name: "Adol Special Oil Perfume <small>30ml</small>",
   price: 5500,
   quantity: 0,
   productId: 4,
-  image: "images/product-4.jpg",
+  image: "app/src/images/product-4.jpg",
 };
 const product5 = {
   name: "Adol Special Oil Perfume <small>10ml</small>",
   price: 2500,
   quantity: 0,
   productId: 5,
-  image: "images/product-5.jpg",
+  image: "app/src/images/product-5.jpg",
 };
 
 /* Create an array named products which you will use to add all of your product object literals that you create in the next step. */
