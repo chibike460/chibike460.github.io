@@ -10,6 +10,7 @@ function drawProducts() {
                 <img src='${element.image}'>
                 <h3>${element.name}</h3>
                 <p>price: <s>${currencySymbol}</s>${element.price}</p>
+                <p><a id="read-more" href="#read-more">Read More</a></p>
                 <button class="add-to-cart">Add to Cart</button>
             </div>
         `;

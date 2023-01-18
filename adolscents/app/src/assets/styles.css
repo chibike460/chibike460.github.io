@@ -69,6 +69,8 @@ p {
     background: #f5f5f5;
     margin: 1em;
     padding: 2em;
+    padding-top: 1em;
+    padding-bottom: 1em;
     flex-basis: 239px;
     color: black
 }
@@ -80,6 +82,10 @@ p {
 
 .products > div h3 {
     font-weight: 800;
+}
+
+.products a {
+    font-size: 1em;
 }
 
 .cart > div {
