@@ -14,7 +14,7 @@ const product1 = {
   image: "app/src/images/product-1.jpg",
 };
 const product2 = {
-  name: "Gucci OUD Intense",
+  name: "Gucci OUD Intense <small>30ml</small>",
   price: 2.99,
   quantity: 0,
   productId: 2,
