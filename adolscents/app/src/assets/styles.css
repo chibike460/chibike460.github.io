@@ -19,16 +19,20 @@ header {
     justify-content: space-between;
     align-items: center;
     margin-bottom: 2em;
+    position: fixed;
+    top: 0;
+    z-index: 1000;
+    width: 100%;
 }
 header img {
-    width: 8em;
-    height: 8em;
+    width: 6em;
+    height: 6em;
     border-radius: 50%;
 }
 h1 {
     color: white;
     text-align: center;
-    padding: 1em;
+    padding-left: 1em;
     font-size: 2.5em;;
 }
 h2, h3 {
@@ -46,12 +50,14 @@ p {
 .cart-container {
     display: flex;
     justify-content: space-around;
+    position: relative;
+    top: 8em;
 }
 .checkout-container {
     max-width: 34em;
     width: 25em;
     padding: 2em;
-    background: rgb(156, 44, 171);
+    background: rgb(84, 26, 98);
     color: white;
 }
 .products, .cart{
