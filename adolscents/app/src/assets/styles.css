@@ -35,6 +35,10 @@ h1 {
     padding-left: 1em;
     font-size: 2.5em;;
 }
+#intro {
+    position: relative;
+    top: 8em;
+}
 h2, h3 {
     padding: 1em 0 .5em;
 }
