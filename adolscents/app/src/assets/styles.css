@@ -45,7 +45,6 @@ p {
     width: 100%;
     max-width: 55em;
     padding: 2em;
-    color: white;
 }
 .cart-container {
     display: flex;
