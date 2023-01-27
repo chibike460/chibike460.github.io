@@ -36,16 +36,22 @@ h1 {
     top: 8em;
     padding: 1em;
 }
-#ceo h2 {
-    margin-top: 1em;
-    margin-bottom: 1git diffem;
-}
 #intro p, #ceo p {
     padding: 0;
     font-size: 2em;
     line-height: 1.5em;
     color: rgb(156, 44, 171);
     font-weight: 600;
+}
+#ceo h2 {
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+#ceo h2 + img {
+    width: 8em;
+    height: 10em;
+    float: left;
+    margin-right: 1em;
 }
 h2, h3 {
     padding: 1em 0 .5em;
