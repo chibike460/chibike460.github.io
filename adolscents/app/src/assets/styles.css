@@ -91,7 +91,10 @@ p {
 .products > div h3 {
     font-weight: 800;
 }
-
+.products a, .products h3 + p {
+    color: rgb(156, 44, 171);
+    font-weight: 600;
+}
 .products a {
     font-size: 1em;
 }
