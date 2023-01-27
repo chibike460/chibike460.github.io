@@ -148,3 +148,14 @@ button:hover {
     border: 1px solid #ccc;
     vertical-align: middle
 }
+footer {
+    position: relative;
+    top: 8em;
+    font-weight: 600;
+    text-align: center;
+    background-color: #f5f5f5;
+    padding: 1em;
+}
+footer p {
+    padding: 0;
+}
