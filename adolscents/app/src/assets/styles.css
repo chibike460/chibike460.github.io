@@ -41,7 +41,7 @@ h1 {
 }
 #intro p, #ceo p {
     padding: 0;
-    font-size: 2em;
+    font-size: 1.5em;
     line-height: 1.5em;
     /* color: rgb(156, 44, 171); */
     font-weight: 600;
@@ -64,9 +64,9 @@ h2, h3 {
     padding: 1em 0 .5em;
 }
 p {
-    padding-bottom: 1em;
+    /* padding-bottom: 1em; */
 }
-.paragraph-2 {
+#ceo p {
     margin-top: 1em;
     margin-bottom: 1em;
 }
